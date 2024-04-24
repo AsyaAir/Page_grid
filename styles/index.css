@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+}
+.flex_p_header_footer {
+flex-grow: 1;
+}
+.flex_p_footer {
+    justify-content: cspace-evenly;
+}
+p {
+    border: 1px solid black;
+}
