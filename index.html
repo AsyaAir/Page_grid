@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +7,22 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <!-- Флекс контейнер шапки страницы flex_container_1-->
-<header class="flex_container_1">
-            <p class="flex_p">[Шапка страницы]</p>
-</header>
-<!-- Флекс контейнер средней части страницы flex_container_2
-        [основной части] flex_container_3 с вложенными 3-мя элементами flex_p1-3 
-        и [боковой части] flex_container_4-->
-<main class="flex_container_2">
-        <div class="flex_container_3">
-            <!-- поменяла section на div и все блоки встали на места -->
-            <p class="flex_p">[Основная часть]</p>
-            <div class="flex_element_3">
-                <p class="flex_p1">[Еще 1]</p>
-                <p class="flex_p2">[Еще 2]</p>
-                <p class="flex_p3">[Еще 3]</p>
-            </div>
-        </div>
-        <div class="flex_container_4">
-            <p class="flex_p">[Боковая часть]</p>
-        </div>
-</main>
-<!-- Флекс контейнер футера flex_container_5 со вложенными элементами flex_element_5-->
-<footer class="flex_container_5"> 
-        <p class="flex_element_5">[Секция футера 1]</p>
-        <p class="flex_element_5">[Секция футера 2]</p>
-        <p class="flex_element_5">[Секция футера 3]</p>
-        <p class="flex_element_5">[Секция футера 4]</p>
-</footer>
-</body>
+    <div class="container">
+        <header class="head_of_page">[Шапка страницы]</header>
+        <aside class="left_side_of_center">
+            <div class="center_element_1">[Основная часть]</div>
+            <div class="center_element_2">[Еще 1]</div>
+            <div class="center_element_3">[Еще 2]</div>
+            <div class="center_element_4">[Еще 3]</div>
+        </aside>
+        <main class="right_side_of_center">[Боковая часть]</main>
+        <footer class="footer_of_page">
+            <div class="footer_element_text">[Секция футера]</div>
+            <div class="footer_element">[Секция футера 1]</div>
+            <div class="footer_element">[Секция футера 2]</div>
+            <div class="footer_element">[Секция футера 3]</div>
+            <div class="footer_element">[Секция футера 4]</div>
+        </footer>
+    </div>
+    </body>
 </html>
